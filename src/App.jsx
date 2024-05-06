@@ -1,8 +1,8 @@
 import './App.css'
-import Welcome from './Welcome'
+import ToDo from './ToDo'
 
 function App() {
-  return <Welcome></Welcome>
+  return <ToDo />
 
 }
 
