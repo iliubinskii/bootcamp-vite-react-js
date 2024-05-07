@@ -12,10 +12,10 @@
       "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[javascript]": {
-      "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[javascriptreact]": {
-      "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[json]": {
       "editor.defaultFormatter": "vscode.json-language-features"
@@ -24,15 +24,14 @@
       "editor.defaultFormatter": "vscode.json-language-features"
     },
     "[typescript]": {
-      "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[typescriptreact]": {
-      "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "debug.javascript.codelens.npmScripts": "never",
     "editor.codeActionsOnSave": {
-      "source.fixAll": "explicit",
-      "source.sortPackageJson": "explicit"
+      "source.fixAll": "never"
     },
     "editor.detectIndentation": false,
     "editor.foldingStrategy": "indentation",
@@ -42,9 +41,6 @@
       "ru": true
     },
     "editor.unicodeHighlight.ambiguousCharacters": true,
-    "eslint.codeActionsOnSave.rules": [
-      "*"
-    ],
     "eslint.format.enable": true,
     "files.eol": "\n",
     "files.insertFinalNewline": true,
