@@ -1,7 +1,7 @@
-import Welcome from "./Welcome";
+import AuthApp from "./AuthApp";
 
 function App() {
-  return <Welcome></Welcome>;
+  return <AuthApp></AuthApp>;
 }
 
 export default App;
