@@ -1,8 +1,7 @@
-import './App.css'
-import ToDo from './ToDo'
+import AuthApp from "./AuthApp";
 
 function App() {
-  return <ToDo />
+  return <AuthApp></AuthApp>;
 }
 
 export default App;
