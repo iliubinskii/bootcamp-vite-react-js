@@ -1,7 +1,8 @@
-import Welcome from "./Welcome";
+import './App.css'
+import ToDo from './ToDo'
 
 function App() {
-  return <Welcome></Welcome>;
+  return <ToDo />
 }
 
 export default App;
